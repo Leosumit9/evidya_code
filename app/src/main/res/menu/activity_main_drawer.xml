@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/nav_home"/>
+
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/baseline_explore_24"
+        android:title="@string/nav_explore"/>
+
+    <item
+        android:id="@+id/nav_subscription"
+        android:icon="@drawable/baseline_subscription_24"
+        android:title="@string/nav_subscription"/>
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/baseline_bell_24"
+        android:title="@string/nav_notification"/>
+
+    <item
+        android:id="@+id/nav_my_account"
+        android:icon="@drawable/baseline_account_24"
+        android:title="@string/nav_my_account"/>
+
+
+    <item android:title="@string/bottom_other">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/baseline_setting_24"
+                android:title="@string/action_settings"/>
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/baseline_contact_mail_24"
+                android:title="@string/nav_contact_us"/>
+
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@drawable/baseline_report_24"
+                android:title="@string/nav_reports"/>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="@string/nav_share"/>
+
+        </menu>
+
+    </item>
+
+</menu>
+
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_my_account"-->
+    <!--        android:icon="@drawable/baseline_account_24"-->
+    <!--        android:title="@string/nav_my_account"/>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_setting"-->
+    <!--        android:icon="@drawable/baseline_setting_24"-->
+    <!--        android:title="@string/action_settings"/>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_contact_us"-->
+    <!--        android:icon="@drawable/baseline_contact_mail_24"-->
+    <!--        android:title="@string/nav_contact_us"/>-->
+
+
+    <!--</menu>-->

@@ -1,0 +1,38 @@
+<resources>
+    <string name="hello">नमस्ते</string>
+
+        <string name="app_name">एविद्या1.2</string>
+
+        <string name="sumit">सुमित</string>
+
+        <!-- गणेश -->
+
+        <string name="navigation_drawer_open">नेविगेशन ड्रॉअर खोलें</string>
+        <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+        <string name="nav_header_title">गणेश वर्मा</string>
+        <string name="nav_header_subtitle">ganesvarma@gmail.com</string>
+        <string name="nav_header_desc">नेविगेशन हेडर</string>
+        <string name="action_settings">सेटिंग्स</string>
+
+        <string name="nav_home">मुख्य पृष्ठ</string>
+        <string name="nav_explore">अन्वेषण करें</string>
+        <string name="nav_subscription">सदस्यता</string>
+        <string name="nav_reports">रिपोर्ट्स</string>
+        <string name="nav_my_account">मेरा खाता</string>
+        <string name="nav_setting">सेटिंग</string>
+        <string name="nav_contact_us">संपर्क करें</string>
+
+        <string name="menu_home">मुख्य पृष्ठ</string>
+        <string name="menu_gallery">गैलरी</string>
+        <string name="menu_slideshow">स्लाइडशो</string>
+
+        <string name="home_button">मुख्य पृष्ठ</string>
+        <string name="bottom_quiz">क्विज़</string>
+        <string name="bottom_search">खोज</string>
+        <string name="bottom_account">खाता</string>
+        <string name="bottom_other">अन्य विकल्प</string>
+        <string name="nav_share">साझा करें</string>
+        <string name="nav_notification">सूचनाएं</string>
+        <string name="bell_icon">खोज पट्टी</string>
+
+</resources>
