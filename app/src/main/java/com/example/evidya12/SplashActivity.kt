@@ -8,16 +8,16 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.evidya12.com.example.evidya12.Welcome
+import com.example.evidya12.Welcome
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        supportFragmentManager.beginTransaction()
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, user_loging::class.java)
+            val intent = Intent(this, Welcome::class.java)
             startActivity(intent)
             finish()
         },2200)

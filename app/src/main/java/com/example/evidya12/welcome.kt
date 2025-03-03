@@ -1,30 +1,4 @@
-//package com.example.evidya12
-//
-//import android.content.Intent
-//import android.os.Bundle
-//import android.widget.Button
-//import android.widget.TextView
-//import androidx.appcompat.app.AppCompatActivity
-//
-//
-//
-//class Welcome: AppCompatActivity() {
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.welcome)
-//
-//        val textView = findViewById<TextView>(R.id.getstart)
-//        textView.setOnClickListener{
-//            val intent = Intent(this, login_page::class.java)
-//            startActivity(intent)
-//        }
-//
-//
-//
-//    }
-//}
-
-package com.example.evidya12.com.example.evidya12
+package com.example.evidya12
 
 import android.content.Intent
 import android.os.Bundle
@@ -34,7 +8,7 @@ import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.evidya12.R
-import com.example.evidya12.user_loging
+import com.example.evidya12.UserLogin
 
 class Welcome : AppCompatActivity() {
 
@@ -46,7 +20,7 @@ class Welcome : AppCompatActivity() {
         // 🔹 Handle button click to navigate to LoginPage activity
         val textView = findViewById<TextView>(R.id.getstart)
         textView.setOnClickListener {
-            val intent = Intent(this, user_loging::class.java)
+            val intent = Intent(this, UserLogin::class.java)
             startActivity(intent)
         }
 
@@ -63,7 +37,7 @@ class Welcome : AppCompatActivity() {
 
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: android.view.View, position: Int, id: Long) {
-                // TODO: Handle language selection logic
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>) {}

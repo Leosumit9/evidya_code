@@ -23,20 +23,20 @@
 
 
         <activity
-            android:name=".content_main"
+            android:name=".ContentMain"
             android:exported="false" />
 
         <activity
-            android:name=".my_account"
+            android:name=".MyAccount"
             android:exported="false" />
         <activity
-            android:name=".contact_us"
+            android:name=".ContactUs"
             android:exported="false" />
         <activity
-            android:name=".user_register"
+            android:name=".UserRegister"
             android:exported="false" />
         <activity
-            android:name=".user_loging"
+            android:name=".UserLogin"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".com.example.evidya12.Welcome"
+            android:name=".Welcome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,9 +56,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sel_learn_quiz_page" />
-        <activity android:name=".com.example.evidya12.choose_class" />
-        <activity android:name=".com.example.evidya12.quiz_page" />
+        <activity android:name=".SelPageLP" />
+        <activity android:name=".ChooseClass" />
+        <activity android:name=".Quiz" />
     </application>
 
 </manifest>

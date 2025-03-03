@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.evidya12.databinding.ActivityUserRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
 
-class user_register : AppCompatActivity() {
+class UserRegister : AppCompatActivity() {
 
     private lateinit var binding: ActivityUserRegisterBinding
     private lateinit var firebaseAuth: FirebaseAuth
@@ -33,7 +33,7 @@ class user_register : AppCompatActivity() {
                 if (password == password_2){
                     firebaseAuth.createUserWithEmailAndPassword(email , password).addOnCompleteListener {
                         if (it.isSuccessful){
-                            val intent = Intent(this, user_loging::class.java)
+                            val intent = Intent(this, UserLogin::class.java)
                             startActivity(intent)
 
                         }else{

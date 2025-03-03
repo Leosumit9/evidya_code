@@ -11,7 +11,7 @@ import com.example.evidya12.databinding.ActivityUserLogingBinding
 import com.example.evidya12.databinding.ActivityUserRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
 
-class user_loging : AppCompatActivity() {
+class UserLogin : AppCompatActivity() {
 
     private lateinit var binding: ActivityUserLogingBinding
     private lateinit var firebaseAuth: FirebaseAuth
@@ -26,12 +26,12 @@ class user_loging : AppCompatActivity() {
         firebaseAuth = FirebaseAuth.getInstance()
 
         binding.loginButton.setOnClickListener {
-            val intent = Intent(this, user_loging::class.java)
+            val intent = Intent(this, UserLogin::class.java)
             startActivity(intent)
         }
 
         binding.createAccount.setOnClickListener{
-            val intent = Intent(this, user_register::class.java)
+            val intent = Intent(this, UserRegister::class.java)
             startActivity(intent)
         }
 
@@ -44,7 +44,7 @@ class user_loging : AppCompatActivity() {
 
                 firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        val intent = Intent(this, sel_learn_quiz_page::class.java)
+                        val intent = Intent(this, SelPageLP::class.java)
                         startActivity(intent)
 
                     } else {
@@ -67,7 +67,7 @@ class user_loging : AppCompatActivity() {
         super.onStart()
 
         if (firebaseAuth.currentUser != null){
-            val intent = Intent(this, sel_learn_quiz_page::class.java)
+            val intent = Intent(this, SelPageLP::class.java)
             startActivity(intent)
         }
     }

@@ -4,23 +4,23 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.evidya12.com.example.evidya12.choose_class
-import com.example.evidya12.com.example.evidya12.quiz_page
+import com.example.evidya12.ChooseClass
+import com.example.evidya12.Quiz
 
-class sel_learn_quiz_page: AppCompatActivity() {
+class SelPageLP: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sel_learn_quiz_page)
 
         val learning_btn = findViewById<Button>(R.id.learning_btn)
         learning_btn.setOnClickListener{
-            val intent = Intent(this, choose_class::class.java)
+            val intent = Intent(this, ChooseClass::class.java)
             startActivity(intent)
         }
 
         val quiz_btn = findViewById<Button>(R.id.quiz_btn)
         quiz_btn.setOnClickListener{
-            val intent = Intent(this, quiz_page::class.java)
+            val intent = Intent(this, Quiz::class.java)
             startActivity(intent)
         }
 
