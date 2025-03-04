@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home_button"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home_button" />
+
+
+    <item android:id="@+id/bottom_quiz"
+        android:icon="@drawable/baseline_quiz_24"
+        android:title="@string/bottom_quiz" />
+
+
+    <item android:id="@+id/fab"
+        android:title=""
+        android:enabled="true" />
+
+
+    <item android:id="@+id/bottom_search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/bottom_search" />
+
+
+    <item android:id="@+id/bottom_account"
+        android:icon="@drawable/baseline_account_24"
+        android:title="@string/bottom_account" />
+
+</menu>
+
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/action_settings"-->
+    <!--        android:orderInCategory="100"-->
+    <!--        android:title="@string/menu_home"-->
+    <!--        app:showAsAction="never" />-->
+    <!--</menu>-->
