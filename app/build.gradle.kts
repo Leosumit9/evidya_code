@@ -44,12 +44,14 @@ android {
 
 dependencies {
 
-
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.7.5")
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.airbnb.android:lottie:6.0.0")
     implementation ("com.google.firebase:firebase-auth:22.1.2")
     implementation ("com.google.firebase:firebase-database:20.3.1")
-
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
